@@ -1,5 +1,5 @@
 function descobrirMelhorMotorista(motoristas){
-    const formulaDoMelhorMotorista = (corridas,estrelas,distancia) => (corridas / (estrelas * distancia))
+    const formulaDoMelhorMotorista = (corridas,estrelas,distancia) => parseFloat((corridas / (estrelas * distancia)).toFixed(2))
 
     let maiorNota = 0
     let motoristaComMaiorNota = {}
