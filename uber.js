@@ -24,4 +24,5 @@ const motoristas = [
     { distancia:6 ,estrelas:4.4,corridas:4400 },
 ]
 
-console.log( descobrirMelhorMotorista(motoristas))
+console.log( descobrirMelhorMotorista(motoristas)) 
+//Result: { distancia: 3, estrelas: 4.7, corridas: 3000, nota: 212.77 }
